@@ -6,6 +6,7 @@ module.exports = appInfo => {
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1529914386603_5710';
 
+
   // add your config here
   config.middleware = [];
 
@@ -33,3 +34,5 @@ exports.sequelize = {
   username: 'root',
   password: '',
 };
+
+
