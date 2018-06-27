@@ -1,3 +1,5 @@
+//管理员
+
 module.exports = app => {
     const {
         STRING,
@@ -6,8 +8,8 @@ module.exports = app => {
     } = app.Sequelize;
 
     const Admin = app.model.define('admin', {
-        username: STRING(32),
-        password: STRING(32),
+        username: STRING(32),   //用户名
+        password: STRING(32),   //密码
     });
 
     return Admin;
